@@ -1,0 +1,172 @@
+[INFO][2019-03-19 13:42|:20][org.springframework.web.context.ContextLoader]Root WebApplicationContext: initialization started
+[INFO][2019-03-19 13:42|:20][org.springframework.web.context.support.XmlWebApplicationContext]Refreshing Root WebApplicationContext: startup date [Tue Mar 19 13:42:20 CST 2019]; root of context hierarchy
+[INFO][2019-03-19 13:42|:20][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from file [D:\ideaspace\shop\shop-portal\target\classes\applicationContext-dao.xml]
+[INFO][2019-03-19 13:42|:20][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from file [D:\ideaspace\shop\shop-portal\target\classes\applicationContext-service.xml]
+[INFO][2019-03-19 13:42|:20][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from file [D:\ideaspace\shop\shop-portal\target\classes\applicationContext-tx.xml]
+[WARN][2019-03-19 13:42|:20][org.mybatis.spring.mapper.ClassPathMapperScanner]No MyBatis mapper was found in '[com.ssm.mapper]' package. Please check your configuration.
+[INFO][2019-03-19 13:42|:20][org.springframework.context.support.PropertySourcesPlaceholderConfigurer]Loading properties file from class path resource [db.properties]
+[INFO][2019-03-19 13:42|:20][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO][2019-03-19 13:42|:21][com.alibaba.druid.pool.DruidDataSource]{dataSource-1} inited
+[INFO][2019-03-19 13:42|:21][org.springframework.web.context.ContextLoader]Root WebApplicationContext: initialization completed in 1486 ms
+[INFO][2019-03-19 13:42|:21][org.springframework.web.servlet.DispatcherServlet]FrameworkServlet 'DispatcherServlet': initialization started
+[INFO][2019-03-19 13:42|:21][org.springframework.web.context.support.XmlWebApplicationContext]Refreshing WebApplicationContext for namespace 'DispatcherServlet-servlet': startup date [Tue Mar 19 13:42:21 CST 2019]; parent: Root WebApplicationContext
+[INFO][2019-03-19 13:42|:21][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring-mvc.xml]
+[INFO][2019-03-19 13:42|:22][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO][2019-03-19 13:42|:22][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]Mapped "{[/test]}" onto public java.lang.Object com.ssm.controller.TestController.test()
+[INFO][2019-03-19 13:42|:22][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]Looking for @ControllerAdvice: WebApplicationContext for namespace 'DispatcherServlet-servlet': startup date [Tue Mar 19 13:42:21 CST 2019]; parent: Root WebApplicationContext
+[INFO][2019-03-19 13:42|:22][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]Looking for @ControllerAdvice: WebApplicationContext for namespace 'DispatcherServlet-servlet': startup date [Tue Mar 19 13:42:21 CST 2019]; parent: Root WebApplicationContext
+[INFO][2019-03-19 13:42|:22][org.springframework.web.servlet.handler.SimpleUrlHandlerMapping]Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+[INFO][2019-03-19 13:42|:22][org.springframework.web.servlet.DispatcherServlet]FrameworkServlet 'DispatcherServlet': initialization completed in 907 ms
+[INFO][2019-03-19 16:58|:46][org.springframework.web.context.ContextLoader]Root WebApplicationContext: initialization started
+[INFO][2019-03-19 16:58|:46][org.springframework.web.context.support.XmlWebApplicationContext]Refreshing Root WebApplicationContext: startup date [Tue Mar 19 16:58:46 CST 2019]; root of context hierarchy
+[INFO][2019-03-19 16:58|:46][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from file [D:\ideaspace\shop\shop-portal\target\classes\applicationContext-dao.xml]
+[INFO][2019-03-19 16:58|:46][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from file [D:\ideaspace\shop\shop-portal\target\classes\applicationContext-service.xml]
+[INFO][2019-03-19 16:58|:46][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from file [D:\ideaspace\shop\shop-portal\target\classes\applicationContext-tx.xml]
+[WARN][2019-03-19 16:58|:46][org.mybatis.spring.mapper.ClassPathMapperScanner]No MyBatis mapper was found in '[com.ssm.mapper]' package. Please check your configuration.
+[INFO][2019-03-19 16:58|:46][org.springframework.context.support.PropertySourcesPlaceholderConfigurer]Loading properties file from class path resource [db.properties]
+[INFO][2019-03-19 16:58|:46][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO][2019-03-19 16:58|:47][com.alibaba.druid.pool.DruidDataSource]{dataSource-1} inited
+[INFO][2019-03-19 16:58|:47][org.springframework.web.context.ContextLoader]Root WebApplicationContext: initialization completed in 1199 ms
+[INFO][2019-03-19 16:58|:47][org.springframework.web.servlet.DispatcherServlet]FrameworkServlet 'DispatcherServlet': initialization started
+[INFO][2019-03-19 16:58|:47][org.springframework.web.context.support.XmlWebApplicationContext]Refreshing WebApplicationContext for namespace 'DispatcherServlet-servlet': startup date [Tue Mar 19 16:58:47 CST 2019]; parent: Root WebApplicationContext
+[INFO][2019-03-19 16:58|:47][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring-mvc.xml]
+[INFO][2019-03-19 16:58|:47][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO][2019-03-19 16:58|:47][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]Mapped "{[/test]}" onto public java.lang.Object com.ssm.controller.TestController.test()
+[INFO][2019-03-19 16:58|:47][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]Looking for @ControllerAdvice: WebApplicationContext for namespace 'DispatcherServlet-servlet': startup date [Tue Mar 19 16:58:47 CST 2019]; parent: Root WebApplicationContext
+[INFO][2019-03-19 16:58|:48][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]Looking for @ControllerAdvice: WebApplicationContext for namespace 'DispatcherServlet-servlet': startup date [Tue Mar 19 16:58:47 CST 2019]; parent: Root WebApplicationContext
+[INFO][2019-03-19 16:58|:48][org.springframework.web.servlet.handler.SimpleUrlHandlerMapping]Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+[INFO][2019-03-19 16:58|:48][org.springframework.web.servlet.DispatcherServlet]FrameworkServlet 'DispatcherServlet': initialization completed in 826 ms
+[INFO][2019-03-19 19:10|:28][org.springframework.web.context.ContextLoader]Root WebApplicationContext: initialization started
+[INFO][2019-03-19 19:10|:28][org.springframework.web.context.support.XmlWebApplicationContext]Refreshing Root WebApplicationContext: startup date [Tue Mar 19 19:10:28 CST 2019]; root of context hierarchy
+[INFO][2019-03-19 19:10|:28][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from file [D:\ideaspace\shop\shop-portal\target\classes\applicationContext-dao.xml]
+[INFO][2019-03-19 19:10|:28][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from file [D:\ideaspace\shop\shop-portal\target\classes\applicationContext-service.xml]
+[INFO][2019-03-19 19:10|:28][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from file [D:\ideaspace\shop\shop-portal\target\classes\applicationContext-tx.xml]
+[WARN][2019-03-19 19:10|:28][org.mybatis.spring.mapper.ClassPathMapperScanner]No MyBatis mapper was found in '[com.ssm.mapper]' package. Please check your configuration.
+[INFO][2019-03-19 19:10|:28][org.springframework.context.support.PropertySourcesPlaceholderConfigurer]Loading properties file from class path resource [db.properties]
+[INFO][2019-03-19 19:10|:28][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO][2019-03-19 19:10|:29][com.alibaba.druid.pool.DruidDataSource]{dataSource-1} inited
+[INFO][2019-03-19 19:10|:29][org.springframework.web.context.ContextLoader]Root WebApplicationContext: initialization completed in 1352 ms
+[INFO][2019-03-19 19:10|:29][org.springframework.web.servlet.DispatcherServlet]FrameworkServlet 'DispatcherServlet': initialization started
+[INFO][2019-03-19 19:10|:29][org.springframework.web.context.support.XmlWebApplicationContext]Refreshing WebApplicationContext for namespace 'DispatcherServlet-servlet': startup date [Tue Mar 19 19:10:29 CST 2019]; parent: Root WebApplicationContext
+[INFO][2019-03-19 19:10|:29][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring-mvc.xml]
+[INFO][2019-03-19 19:10|:29][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO][2019-03-19 19:10|:29][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]Mapped "{[/test]}" onto public java.lang.Object com.ssm.controller.TestController.test()
+[INFO][2019-03-19 19:10|:29][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]Mapped "{[/v/{path}/{jsp}]}" onto public java.lang.String com.ssm.controller.ViewController.view(java.lang.String,java.lang.String)
+[INFO][2019-03-19 19:10|:29][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]Mapped "{[/login]}" onto public java.lang.String com.ssm.controller.ViewController.view()
+[INFO][2019-03-19 19:10|:29][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]Looking for @ControllerAdvice: WebApplicationContext for namespace 'DispatcherServlet-servlet': startup date [Tue Mar 19 19:10:29 CST 2019]; parent: Root WebApplicationContext
+[INFO][2019-03-19 19:10|:29][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]Looking for @ControllerAdvice: WebApplicationContext for namespace 'DispatcherServlet-servlet': startup date [Tue Mar 19 19:10:29 CST 2019]; parent: Root WebApplicationContext
+[INFO][2019-03-19 19:10|:30][org.springframework.web.servlet.handler.SimpleUrlHandlerMapping]Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+[INFO][2019-03-19 19:10|:30][org.springframework.web.servlet.DispatcherServlet]FrameworkServlet 'DispatcherServlet': initialization completed in 663 ms
+[INFO][2019-03-19 19:26|:31][org.springframework.web.context.ContextLoader]Root WebApplicationContext: initialization started
+[INFO][2019-03-19 19:26|:31][org.springframework.web.context.support.XmlWebApplicationContext]Refreshing Root WebApplicationContext: startup date [Tue Mar 19 19:26:31 CST 2019]; root of context hierarchy
+[INFO][2019-03-19 19:26|:31][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from file [D:\ideaspace\shop\shop-portal\target\classes\applicationContext-dao.xml]
+[INFO][2019-03-19 19:26|:31][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from file [D:\ideaspace\shop\shop-portal\target\classes\applicationContext-service.xml]
+[INFO][2019-03-19 19:26|:31][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from file [D:\ideaspace\shop\shop-portal\target\classes\applicationContext-tx.xml]
+[WARN][2019-03-19 19:26|:32][org.mybatis.spring.mapper.ClassPathMapperScanner]No MyBatis mapper was found in '[com.ssm.mapper]' package. Please check your configuration.
+[INFO][2019-03-19 19:26|:32][org.springframework.context.support.PropertySourcesPlaceholderConfigurer]Loading properties file from class path resource [db.properties]
+[INFO][2019-03-19 19:26|:32][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO][2019-03-19 19:26|:32][com.alibaba.druid.pool.DruidDataSource]{dataSource-1} inited
+[INFO][2019-03-19 19:26|:32][org.springframework.web.context.ContextLoader]Root WebApplicationContext: initialization completed in 1311 ms
+[INFO][2019-03-19 19:26|:32][org.springframework.web.servlet.DispatcherServlet]FrameworkServlet 'DispatcherServlet': initialization started
+[INFO][2019-03-19 19:26|:32][org.springframework.web.context.support.XmlWebApplicationContext]Refreshing WebApplicationContext for namespace 'DispatcherServlet-servlet': startup date [Tue Mar 19 19:26:32 CST 2019]; parent: Root WebApplicationContext
+[INFO][2019-03-19 19:26|:32][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring-mvc.xml]
+[INFO][2019-03-19 19:26|:33][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO][2019-03-19 19:26|:33][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]Mapped "{[/test]}" onto public java.lang.Object com.ssm.controller.TestController.test()
+[INFO][2019-03-19 19:26|:33][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]Mapped "{[/user/login]}" onto public java.lang.String com.ssm.controller.UserController.userLogin(java.lang.String,java.lang.String,javax.servlet.http.HttpSession)
+[INFO][2019-03-19 19:26|:33][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]Mapped "{[/v/{path}/{jsp}]}" onto public java.lang.String com.ssm.controller.ViewController.view(java.lang.String,java.lang.String)
+[INFO][2019-03-19 19:26|:33][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]Mapped "{[/login]}" onto public java.lang.String com.ssm.controller.ViewController.view()
+[INFO][2019-03-19 19:26|:33][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]Looking for @ControllerAdvice: WebApplicationContext for namespace 'DispatcherServlet-servlet': startup date [Tue Mar 19 19:26:32 CST 2019]; parent: Root WebApplicationContext
+[INFO][2019-03-19 19:26|:33][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]Looking for @ControllerAdvice: WebApplicationContext for namespace 'DispatcherServlet-servlet': startup date [Tue Mar 19 19:26:32 CST 2019]; parent: Root WebApplicationContext
+[INFO][2019-03-19 19:26|:33][org.springframework.web.servlet.handler.SimpleUrlHandlerMapping]Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+[INFO][2019-03-19 19:26|:33][org.springframework.web.servlet.DispatcherServlet]FrameworkServlet 'DispatcherServlet': initialization completed in 683 ms
+[INFO][2019-03-19 19:42|:21][org.springframework.web.context.ContextLoader]Root WebApplicationContext: initialization started
+[INFO][2019-03-19 19:42|:21][org.springframework.web.context.support.XmlWebApplicationContext]Refreshing Root WebApplicationContext: startup date [Tue Mar 19 19:42:21 CST 2019]; root of context hierarchy
+[INFO][2019-03-19 19:42|:21][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from file [D:\ideaspace\shop\shop-portal\target\classes\applicationContext-dao.xml]
+[INFO][2019-03-19 19:42|:21][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from file [D:\ideaspace\shop\shop-portal\target\classes\applicationContext-service.xml]
+[INFO][2019-03-19 19:42|:21][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from file [D:\ideaspace\shop\shop-portal\target\classes\applicationContext-tx.xml]
+[WARN][2019-03-19 19:42|:21][org.mybatis.spring.mapper.ClassPathMapperScanner]No MyBatis mapper was found in '[com.ssm.mapper]' package. Please check your configuration.
+[INFO][2019-03-19 19:42|:21][org.springframework.context.support.PropertySourcesPlaceholderConfigurer]Loading properties file from class path resource [db.properties]
+[INFO][2019-03-19 19:42|:21][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO][2019-03-19 19:42|:22][com.alibaba.druid.pool.DruidDataSource]{dataSource-1} inited
+[INFO][2019-03-19 19:42|:22][org.springframework.web.context.ContextLoader]Root WebApplicationContext: initialization completed in 1346 ms
+[INFO][2019-03-19 19:42|:22][org.springframework.web.servlet.DispatcherServlet]FrameworkServlet 'DispatcherServlet': initialization started
+[INFO][2019-03-19 19:42|:22][org.springframework.web.context.support.XmlWebApplicationContext]Refreshing WebApplicationContext for namespace 'DispatcherServlet-servlet': startup date [Tue Mar 19 19:42:22 CST 2019]; parent: Root WebApplicationContext
+[INFO][2019-03-19 19:42|:22][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring-mvc.xml]
+[INFO][2019-03-19 19:42|:22][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO][2019-03-19 19:42|:22][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]Mapped "{[/test]}" onto public java.lang.Object com.ssm.controller.TestController.test()
+[INFO][2019-03-19 19:42|:22][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]Mapped "{[/user/login]}" onto public java.lang.String com.ssm.controller.UserController.userLogin(java.lang.String,java.lang.String,javax.servlet.http.HttpSession)
+[INFO][2019-03-19 19:42|:22][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]Mapped "{[/v/{path}/{jsp}]}" onto public java.lang.String com.ssm.controller.ViewController.view(java.lang.String,java.lang.String)
+[INFO][2019-03-19 19:42|:22][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]Mapped "{[/login]}" onto public java.lang.String com.ssm.controller.ViewController.view()
+[INFO][2019-03-19 19:42|:23][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]Looking for @ControllerAdvice: WebApplicationContext for namespace 'DispatcherServlet-servlet': startup date [Tue Mar 19 19:42:22 CST 2019]; parent: Root WebApplicationContext
+[INFO][2019-03-19 19:42|:23][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]Looking for @ControllerAdvice: WebApplicationContext for namespace 'DispatcherServlet-servlet': startup date [Tue Mar 19 19:42:22 CST 2019]; parent: Root WebApplicationContext
+[INFO][2019-03-19 19:42|:23][org.springframework.web.servlet.handler.SimpleUrlHandlerMapping]Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+[INFO][2019-03-19 19:42|:23][org.springframework.web.servlet.DispatcherServlet]FrameworkServlet 'DispatcherServlet': initialization completed in 728 ms
+[INFO][2019-03-19 20:30|:52][org.springframework.web.context.ContextLoader]Root WebApplicationContext: initialization started
+[INFO][2019-03-19 20:30|:52][org.springframework.web.context.support.XmlWebApplicationContext]Refreshing Root WebApplicationContext: startup date [Tue Mar 19 20:30:52 CST 2019]; root of context hierarchy
+[INFO][2019-03-19 20:30|:52][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from file [D:\ideaspace\shop\shop-portal\target\classes\applicationContext-dao.xml]
+[INFO][2019-03-19 20:30|:52][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from file [D:\ideaspace\shop\shop-portal\target\classes\applicationContext-service.xml]
+[INFO][2019-03-19 20:30|:52][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from file [D:\ideaspace\shop\shop-portal\target\classes\applicationContext-tx.xml]
+[WARN][2019-03-19 20:30|:53][org.mybatis.spring.mapper.ClassPathMapperScanner]No MyBatis mapper was found in '[com.ssm.mapper]' package. Please check your configuration.
+[INFO][2019-03-19 20:30|:53][org.springframework.context.support.PropertySourcesPlaceholderConfigurer]Loading properties file from class path resource [db.properties]
+[INFO][2019-03-19 20:30|:53][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO][2019-03-19 20:30|:53][com.alibaba.druid.pool.DruidDataSource]{dataSource-1} inited
+[INFO][2019-03-19 20:30|:53][org.springframework.web.context.ContextLoader]Root WebApplicationContext: initialization completed in 1513 ms
+[INFO][2019-03-19 20:30|:53][org.springframework.web.servlet.DispatcherServlet]FrameworkServlet 'DispatcherServlet': initialization started
+[INFO][2019-03-19 20:30|:53][org.springframework.web.context.support.XmlWebApplicationContext]Refreshing WebApplicationContext for namespace 'DispatcherServlet-servlet': startup date [Tue Mar 19 20:30:53 CST 2019]; parent: Root WebApplicationContext
+[INFO][2019-03-19 20:30|:53][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring-mvc.xml]
+[INFO][2019-03-19 20:30|:54][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO][2019-03-19 20:30|:54][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]Mapped "{[/test]}" onto public java.lang.Object com.ssm.controller.TestController.test()
+[INFO][2019-03-19 20:30|:54][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]Mapped "{[/product],methods=[GET]}" onto public java.lang.Object com.ssm.controller.UserController.queruProductPages(java.lang.Integer,java.lang.Integer,org.springframework.ui.Model)
+[INFO][2019-03-19 20:30|:54][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]Mapped "{[/user/login]}" onto public java.lang.String com.ssm.controller.UserController.userLogin(java.lang.String,java.lang.String,javax.servlet.http.HttpSession)
+[INFO][2019-03-19 20:30|:54][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]Mapped "{[/v/{path}/{jsp}]}" onto public java.lang.String com.ssm.controller.ViewController.view(java.lang.String,java.lang.String)
+[INFO][2019-03-19 20:30|:54][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]Mapped "{[/login]}" onto public java.lang.String com.ssm.controller.ViewController.view()
+[INFO][2019-03-19 20:30|:54][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]Looking for @ControllerAdvice: WebApplicationContext for namespace 'DispatcherServlet-servlet': startup date [Tue Mar 19 20:30:53 CST 2019]; parent: Root WebApplicationContext
+[INFO][2019-03-19 20:30|:54][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]Looking for @ControllerAdvice: WebApplicationContext for namespace 'DispatcherServlet-servlet': startup date [Tue Mar 19 20:30:53 CST 2019]; parent: Root WebApplicationContext
+[INFO][2019-03-19 20:30|:54][org.springframework.web.servlet.handler.SimpleUrlHandlerMapping]Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+[INFO][2019-03-19 20:30|:54][org.springframework.web.servlet.DispatcherServlet]FrameworkServlet 'DispatcherServlet': initialization completed in 726 ms
+[INFO][2019-03-19 20:32|:32][org.springframework.web.context.ContextLoader]Root WebApplicationContext: initialization started
+[INFO][2019-03-19 20:32|:32][org.springframework.web.context.support.XmlWebApplicationContext]Refreshing Root WebApplicationContext: startup date [Tue Mar 19 20:32:32 CST 2019]; root of context hierarchy
+[INFO][2019-03-19 20:32|:32][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from file [D:\ideaspace\shop\shop-portal\target\classes\applicationContext-dao.xml]
+[INFO][2019-03-19 20:32|:32][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from file [D:\ideaspace\shop\shop-portal\target\classes\applicationContext-service.xml]
+[INFO][2019-03-19 20:32|:32][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from file [D:\ideaspace\shop\shop-portal\target\classes\applicationContext-tx.xml]
+[WARN][2019-03-19 20:32|:32][org.mybatis.spring.mapper.ClassPathMapperScanner]No MyBatis mapper was found in '[com.ssm.mapper]' package. Please check your configuration.
+[INFO][2019-03-19 20:32|:32][org.springframework.context.support.PropertySourcesPlaceholderConfigurer]Loading properties file from class path resource [db.properties]
+[INFO][2019-03-19 20:32|:32][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO][2019-03-19 20:32|:33][com.alibaba.druid.pool.DruidDataSource]{dataSource-1} inited
+[INFO][2019-03-19 20:32|:33][org.springframework.web.context.ContextLoader]Root WebApplicationContext: initialization completed in 1458 ms
+[INFO][2019-03-19 20:32|:33][org.springframework.web.servlet.DispatcherServlet]FrameworkServlet 'DispatcherServlet': initialization started
+[INFO][2019-03-19 20:32|:33][org.springframework.web.context.support.XmlWebApplicationContext]Refreshing WebApplicationContext for namespace 'DispatcherServlet-servlet': startup date [Tue Mar 19 20:32:33 CST 2019]; parent: Root WebApplicationContext
+[INFO][2019-03-19 20:32|:33][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring-mvc.xml]
+[INFO][2019-03-19 20:32|:33][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO][2019-03-19 20:32|:34][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]Mapped "{[/test]}" onto public java.lang.Object com.ssm.controller.TestController.test()
+[INFO][2019-03-19 20:32|:34][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]Mapped "{[/user/login]}" onto public java.lang.String com.ssm.controller.UserController.userLogin(java.lang.String,java.lang.String,javax.servlet.http.HttpSession)
+[INFO][2019-03-19 20:32|:34][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]Mapped "{[/product],methods=[GET]}" onto public java.lang.Object com.ssm.controller.UserController.queruProductPages(java.lang.Integer,java.lang.Integer,org.springframework.ui.Model)
+[INFO][2019-03-19 20:32|:34][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]Mapped "{[/v/{path}/{jsp}]}" onto public java.lang.String com.ssm.controller.ViewController.view(java.lang.String,java.lang.String)
+[INFO][2019-03-19 20:32|:34][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]Mapped "{[/login]}" onto public java.lang.String com.ssm.controller.ViewController.view()
+[INFO][2019-03-19 20:32|:34][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]Looking for @ControllerAdvice: WebApplicationContext for namespace 'DispatcherServlet-servlet': startup date [Tue Mar 19 20:32:33 CST 2019]; parent: Root WebApplicationContext
+[INFO][2019-03-19 20:32|:34][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]Looking for @ControllerAdvice: WebApplicationContext for namespace 'DispatcherServlet-servlet': startup date [Tue Mar 19 20:32:33 CST 2019]; parent: Root WebApplicationContext
+[INFO][2019-03-19 20:32|:34][org.springframework.web.servlet.handler.SimpleUrlHandlerMapping]Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+[INFO][2019-03-19 20:32|:34][org.springframework.web.servlet.DispatcherServlet]FrameworkServlet 'DispatcherServlet': initialization completed in 763 ms
+[INFO][2019-03-19 20:50|:36][org.springframework.web.context.ContextLoader]Root WebApplicationContext: initialization started
+[INFO][2019-03-19 20:50|:36][org.springframework.web.context.support.XmlWebApplicationContext]Refreshing Root WebApplicationContext: startup date [Tue Mar 19 20:50:36 CST 2019]; root of context hierarchy
+[INFO][2019-03-19 20:50|:36][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from file [D:\ideaspace\shop\shop-portal\target\classes\applicationContext-dao.xml]
+[INFO][2019-03-19 20:50|:36][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from file [D:\ideaspace\shop\shop-portal\target\classes\applicationContext-service.xml]
+[INFO][2019-03-19 20:50|:36][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from file [D:\ideaspace\shop\shop-portal\target\classes\applicationContext-tx.xml]
+[WARN][2019-03-19 20:50|:36][org.mybatis.spring.mapper.ClassPathMapperScanner]No MyBatis mapper was found in '[com.ssm.mapper]' package. Please check your configuration.
+[INFO][2019-03-19 20:50|:36][org.springframework.context.support.PropertySourcesPlaceholderConfigurer]Loading properties file from class path resource [db.properties]
+[INFO][2019-03-19 20:50|:36][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO][2019-03-19 20:50|:37][com.alibaba.druid.pool.DruidDataSource]{dataSource-1} inited
+[INFO][2019-03-19 20:50|:37][org.springframework.web.context.ContextLoader]Root WebApplicationContext: initialization completed in 1366 ms
+[INFO][2019-03-19 20:50|:37][org.springframework.web.servlet.DispatcherServlet]FrameworkServlet 'DispatcherServlet': initialization started
+[INFO][2019-03-19 20:50|:37][org.springframework.web.context.support.XmlWebApplicationContext]Refreshing WebApplicationContext for namespace 'DispatcherServlet-servlet': startup date [Tue Mar 19 20:50:37 CST 2019]; parent: Root WebApplicationContext
+[INFO][2019-03-19 20:50|:37][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring-mvc.xml]
+[INFO][2019-03-19 20:50|:37][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO][2019-03-19 20:50|:37][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]Mapped "{[/test]}" onto public java.lang.Object com.ssm.controller.TestController.test()
+[INFO][2019-03-19 20:50|:37][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]Mapped "{[/product],methods=[GET]}" onto public java.lang.Object com.ssm.controller.UserController.queruProductPages(java.lang.Integer,java.lang.Integer,org.springframework.ui.Model)
+[INFO][2019-03-19 20:50|:37][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]Mapped "{[/user/login]}" onto public java.lang.String com.ssm.controller.UserController.userLogin(java.lang.String,java.lang.String,javax.servlet.http.HttpSession)
+[INFO][2019-03-19 20:50|:37][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]Mapped "{[/v/{path}/{jsp}]}" onto public java.lang.String com.ssm.controller.ViewController.view(java.lang.String,java.lang.String)
+[INFO][2019-03-19 20:50|:37][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]Mapped "{[/login]}" onto public java.lang.String com.ssm.controller.ViewController.view()
+[INFO][2019-03-19 20:50|:38][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]Looking for @ControllerAdvice: WebApplicationContext for namespace 'DispatcherServlet-servlet': startup date [Tue Mar 19 20:50:37 CST 2019]; parent: Root WebApplicationContext
+[INFO][2019-03-19 20:50|:38][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]Looking for @ControllerAdvice: WebApplicationContext for namespace 'DispatcherServlet-servlet': startup date [Tue Mar 19 20:50:37 CST 2019]; parent: Root WebApplicationContext
+[INFO][2019-03-19 20:50|:38][org.springframework.web.servlet.handler.SimpleUrlHandlerMapping]Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+[INFO][2019-03-19 20:50|:38][org.springframework.web.servlet.DispatcherServlet]FrameworkServlet 'DispatcherServlet': initialization completed in 765 ms

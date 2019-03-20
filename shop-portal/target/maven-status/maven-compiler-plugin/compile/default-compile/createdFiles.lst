@@ -1,0 +1,7 @@
+com\ssm\controller\TestController.class
+com\ssm\controller\UserController.class
+com\ssm\service\UserService.class
+com\ssm\vo\ProductVo.class
+com\ssm\controller\ViewController.class
+com\ssm\pojo\Product.class
+com\ssm\service\Impl\UserServiceImpl.class

@@ -1,0 +1,10 @@
+0:0:0:0:0:0:0:1 - - [19/Mar/2019:17:29:31 +0800] "GET /favicon.ico HTTP/1.1" 404 - http-bio-81-exec-1 0
+0:0:0:0:0:0:0:1 - - [19/Mar/2019:17:29:33 +0800] "GET /shop-admin/login HTTP/1.1" 200 2696 http-bio-81-exec-2 897
+0:0:0:0:0:0:0:1 - - [19/Mar/2019:17:29:33 +0800] "GET /shop-admin/static/js/layui/layui.js HTTP/1.1" 304 - http-bio-81-exec-3 12
+0:0:0:0:0:0:0:1 - - [19/Mar/2019:17:29:33 +0800] "GET /shop-admin/static/js/layui/css/layui.css HTTP/1.1" 304 - http-bio-81-exec-4 14
+0:0:0:0:0:0:0:1 - - [19/Mar/2019:17:29:33 +0800] "GET /shop-admin/static/js/layui/lay/modules/form.js HTTP/1.1" 304 - http-bio-81-exec-5 5
+0:0:0:0:0:0:0:1 - - [19/Mar/2019:17:29:33 +0800] "GET /shop-admin/static/js/layui/lay/modules/layer.js HTTP/1.1" 304 - http-bio-81-exec-7 8
+0:0:0:0:0:0:0:1 - - [19/Mar/2019:17:29:33 +0800] "GET /shop-admin/static/js/layui/css/modules/layer/default/layer.css?v=3.1.1 HTTP/1.1" 304 - http-bio-81-exec-8 6
+0:0:0:0:0:0:0:1 - - [19/Mar/2019:17:29:34 +0800] "GET /shop-admin/imgCode HTTP/1.1" 200 2952 http-bio-81-exec-6 1530
+0:0:0:0:0:0:0:1 - - [19/Mar/2019:17:29:34 +0800] "GET /favicon.ico HTTP/1.1" 404 - http-bio-81-exec-10 0
+127.0.0.1 - - [19/Mar/2019:17:36:20 +0800] "GET /shop-admin/api/products?limit=2&page=2 HTTP/1.1" 200 1053 http-bio-81-exec-2 739

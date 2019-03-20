@@ -1,0 +1,14 @@
+0:0:0:0:0:0:0:1 - - [19/Mar/2019:18:50:53 +0800] "GET /favicon.ico HTTP/1.1" 404 - http-bio-66-exec-1 0
+0:0:0:0:0:0:0:1 - - [19/Mar/2019:18:51:08 +0800] "GET /shop-api/api/user/login HTTP/1.1" 405 1045 http-bio-66-exec-2 42
+0:0:0:0:0:0:0:1 - - [19/Mar/2019:18:53:29 +0800] "POST /shop-api/api/user/login HTTP/1.1" 400 1076 http-bio-66-exec-7 22
+0:0:0:0:0:0:0:1 - - [19/Mar/2019:18:54:38 +0800] "POST /shop-api/api/user/login HTTP/1.1" 400 1076 http-bio-66-exec-9 2
+0:0:0:0:0:0:0:1 - - [19/Mar/2019:18:56:59 +0800] "POST /shop-api/api/user/login?userAccount=jack&userAccount=123 HTTP/1.1" 400 1070 http-bio-66-exec-1 8
+0:0:0:0:0:0:0:1 - - [19/Mar/2019:18:59:02 +0800] "POST /shop-api/api/user/login?userAccount=jack&userAccount=123 HTTP/1.1" 400 1070 http-bio-66-exec-4 2
+0:0:0:0:0:0:0:1 - - [19/Mar/2019:19:00:31 +0800] "POST /shop-api/api/user/login?userAccount=jack&password=123 HTTP/1.1" 200 52 http-bio-66-exec-2 344
+0:0:0:0:0:0:0:1 - - [19/Mar/2019:19:03:57 +0800] "POST /shop-api/api/user/login?userAccount=jack&password=123 HTTP/1.1" 200 99 http-bio-66-exec-2 253
+0:0:0:0:0:0:0:1 - - [19/Mar/2019:19:39:49 +0800] "POST /shop-api/api/user/login?userAccount=jack&password=123 HTTP/1.1" 200 99 http-bio-66-exec-2 254
+127.0.0.1 - - [19/Mar/2019:19:42:34 +0800] "POST /shop-api//api/user/login HTTP/1.1" 200 99 http-bio-66-exec-4 8
+0:0:0:0:0:0:0:1 - - [19/Mar/2019:20:09:49 +0800] "GET /shop-api/api/product HTTP/1.1" 200 1786 http-bio-66-exec-2 385
+0:0:0:0:0:0:0:1 - - [19/Mar/2019:20:21:20 +0800] "GET /shop-api/api/product HTTP/1.1" 200 1895 http-bio-66-exec-2 328
+127.0.0.1 - - [19/Mar/2019:20:33:10 +0800] "GET /shop-api/api/product?limit=6&page=1 HTTP/1.1" 200 1895 http-bio-66-exec-1 252
+127.0.0.1 - - [19/Mar/2019:20:50:52 +0800] "POST /shop-api//api/user/login HTTP/1.1" 200 99 http-bio-66-exec-1 273

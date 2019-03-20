@@ -1,0 +1,424 @@
+[INFO][2019-03-19 15:36|:01][org.springframework.web.context.ContextLoader]Root WebApplicationContext: initialization started
+[INFO][2019-03-19 15:36|:01][org.springframework.web.context.support.XmlWebApplicationContext]Refreshing Root WebApplicationContext: startup date [Tue Mar 19 15:36:01 CST 2019]; root of context hierarchy
+[INFO][2019-03-19 15:36|:01][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from file [D:\ideaspace\shop\shop-api\target\classes\applicationContext-dao.xml]
+[INFO][2019-03-19 15:36|:01][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from file [D:\ideaspace\shop\shop-api\target\classes\applicationContext-service.xml]
+[INFO][2019-03-19 15:36|:01][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from file [D:\ideaspace\shop\shop-api\target\classes\applicationContext-tx.xml]
+[WARN][2019-03-19 15:36|:01][org.mybatis.spring.mapper.ClassPathMapperScanner]No MyBatis mapper was found in '[com.ssm.mapper]' package. Please check your configuration.
+[INFO][2019-03-19 15:36|:01][org.springframework.context.support.PropertySourcesPlaceholderConfigurer]Loading properties file from class path resource [db.properties]
+[INFO][2019-03-19 15:36|:01][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO][2019-03-19 15:36|:02][com.alibaba.druid.pool.DruidDataSource]{dataSource-1} inited
+[INFO][2019-03-19 15:36|:02][org.springframework.web.context.ContextLoader]Root WebApplicationContext: initialization completed in 1270 ms
+[INFO][2019-03-19 15:36|:02][org.springframework.web.servlet.DispatcherServlet]FrameworkServlet 'DispatcherServlet': initialization started
+[INFO][2019-03-19 15:36|:02][org.springframework.web.context.support.XmlWebApplicationContext]Refreshing WebApplicationContext for namespace 'DispatcherServlet-servlet': startup date [Tue Mar 19 15:36:02 CST 2019]; parent: Root WebApplicationContext
+[INFO][2019-03-19 15:36|:02][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring-mvc.xml]
+[INFO][2019-03-19 15:36|:02][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO][2019-03-19 15:36|:02][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]Mapped "{[/test]}" onto public java.lang.Object com.ssm.controller.TestController.test()
+[INFO][2019-03-19 15:36|:03][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]Looking for @ControllerAdvice: WebApplicationContext for namespace 'DispatcherServlet-servlet': startup date [Tue Mar 19 15:36:02 CST 2019]; parent: Root WebApplicationContext
+[INFO][2019-03-19 15:36|:03][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]Looking for @ControllerAdvice: WebApplicationContext for namespace 'DispatcherServlet-servlet': startup date [Tue Mar 19 15:36:02 CST 2019]; parent: Root WebApplicationContext
+[INFO][2019-03-19 15:36|:03][org.springframework.web.servlet.handler.SimpleUrlHandlerMapping]Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+[INFO][2019-03-19 15:36|:03][org.springframework.web.servlet.DispatcherServlet]FrameworkServlet 'DispatcherServlet': initialization completed in 671 ms
+[INFO][2019-03-19 17:03|:10][org.springframework.web.context.ContextLoader]Root WebApplicationContext: initialization started
+[INFO][2019-03-19 17:03|:10][org.springframework.web.context.support.XmlWebApplicationContext]Refreshing Root WebApplicationContext: startup date [Tue Mar 19 17:03:10 CST 2019]; root of context hierarchy
+[INFO][2019-03-19 17:03|:10][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from file [D:\ideaspace\shop\shop-api\target\classes\applicationContext-dao.xml]
+[INFO][2019-03-19 17:03|:10][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from file [D:\ideaspace\shop\shop-api\target\classes\applicationContext-service.xml]
+[INFO][2019-03-19 17:03|:10][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from file [D:\ideaspace\shop\shop-api\target\classes\applicationContext-tx.xml]
+[WARN][2019-03-19 17:03|:10][org.mybatis.spring.mapper.ClassPathMapperScanner]No MyBatis mapper was found in '[com.ssm.mapper]' package. Please check your configuration.
+[INFO][2019-03-19 17:03|:10][org.springframework.context.support.PropertySourcesPlaceholderConfigurer]Loading properties file from class path resource [db.properties]
+[INFO][2019-03-19 17:03|:10][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO][2019-03-19 17:03|:11][com.alibaba.druid.pool.DruidDataSource]{dataSource-1} inited
+[INFO][2019-03-19 17:03|:11][org.springframework.web.context.ContextLoader]Root WebApplicationContext: initialization completed in 1230 ms
+[INFO][2019-03-19 17:03|:11][org.springframework.web.servlet.DispatcherServlet]FrameworkServlet 'DispatcherServlet': initialization started
+[INFO][2019-03-19 17:03|:11][org.springframework.web.context.support.XmlWebApplicationContext]Refreshing WebApplicationContext for namespace 'DispatcherServlet-servlet': startup date [Tue Mar 19 17:03:11 CST 2019]; parent: Root WebApplicationContext
+[INFO][2019-03-19 17:03|:11][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring-mvc.xml]
+[INFO][2019-03-19 17:03|:11][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO][2019-03-19 17:03|:12][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]Mapped "{[/test]}" onto public java.lang.Object com.ssm.controller.TestController.test()
+[INFO][2019-03-19 17:03|:12][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]Looking for @ControllerAdvice: WebApplicationContext for namespace 'DispatcherServlet-servlet': startup date [Tue Mar 19 17:03:11 CST 2019]; parent: Root WebApplicationContext
+[INFO][2019-03-19 17:03|:12][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]Looking for @ControllerAdvice: WebApplicationContext for namespace 'DispatcherServlet-servlet': startup date [Tue Mar 19 17:03:11 CST 2019]; parent: Root WebApplicationContext
+[INFO][2019-03-19 17:03|:12][org.springframework.web.servlet.handler.SimpleUrlHandlerMapping]Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+[INFO][2019-03-19 17:03|:12][org.springframework.web.servlet.DispatcherServlet]FrameworkServlet 'DispatcherServlet': initialization completed in 678 ms
+[INFO][2019-03-19 18:45|:40][org.springframework.web.context.ContextLoader]Root WebApplicationContext: initialization started
+[INFO][2019-03-19 18:45|:40][org.springframework.web.context.support.XmlWebApplicationContext]Refreshing Root WebApplicationContext: startup date [Tue Mar 19 18:45:40 CST 2019]; root of context hierarchy
+[INFO][2019-03-19 18:45|:40][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from file [D:\ideaspace\shop\shop-api\target\classes\applicationContext-dao.xml]
+[INFO][2019-03-19 18:45|:41][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from file [D:\ideaspace\shop\shop-api\target\classes\applicationContext-service.xml]
+[INFO][2019-03-19 18:45|:41][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from file [D:\ideaspace\shop\shop-api\target\classes\applicationContext-tx.xml]
+[INFO][2019-03-19 18:45|:41][org.springframework.context.support.PropertySourcesPlaceholderConfigurer]Loading properties file from class path resource [db.properties]
+[INFO][2019-03-19 18:45|:41][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO][2019-03-19 18:45|:41][com.alibaba.druid.pool.DruidDataSource]{dataSource-1} inited
+[ERROR][2019-03-19 18:45|:42][org.mybatis.spring.mapper.MapperFactoryBean]Error while adding the mapper 'interface com.ssm.mapper.UserMapper' to configuration.
+org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'UserRoleExpand'.  Cause: java.lang.ClassNotFoundException: Cannot find class: UserRoleExpand
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:120)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.parse(XMLMapperBuilder.java:92)
+	at org.apache.ibatis.builder.annotation.MapperAnnotationBuilder.loadXmlResource(MapperAnnotationBuilder.java:173)
+	at org.apache.ibatis.builder.annotation.MapperAnnotationBuilder.parse(MapperAnnotationBuilder.java:124)
+	at org.apache.ibatis.binding.MapperRegistry.addMapper(MapperRegistry.java:72)
+	at org.apache.ibatis.session.Configuration.addMapper(Configuration.java:741)
+	at org.mybatis.spring.mapper.MapperFactoryBean.checkDaoConfig(MapperFactoryBean.java:80)
+	at org.springframework.dao.support.DaoSupport.afterPropertiesSet(DaoSupport.java:44)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1641)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1578)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:545)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAutowireCandidates(DefaultListableBeanFactory.java:1199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1123)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1021)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:545)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:88)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:331)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1218)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:543)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:778)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:839)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:538)
+	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:444)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:326)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:107)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4797)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5291)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1559)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1549)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'UserRoleExpand'.  Cause: java.lang.ClassNotFoundException: Cannot find class: UserRoleExpand
+	at org.apache.ibatis.builder.BaseBuilder.resolveClass(BaseBuilder.java:118)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.resultMapElement(XMLMapperBuilder.java:265)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.resultMapElement(XMLMapperBuilder.java:252)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.resultMapElements(XMLMapperBuilder.java:244)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:116)
+	... 43 more
+Caused by: org.apache.ibatis.type.TypeException: Could not resolve type alias 'UserRoleExpand'.  Cause: java.lang.ClassNotFoundException: Cannot find class: UserRoleExpand
+	at org.apache.ibatis.type.TypeAliasRegistry.resolveAlias(TypeAliasRegistry.java:120)
+	at org.apache.ibatis.builder.BaseBuilder.resolveAlias(BaseBuilder.java:149)
+	at org.apache.ibatis.builder.BaseBuilder.resolveClass(BaseBuilder.java:116)
+	... 47 more
+Caused by: java.lang.ClassNotFoundException: Cannot find class: UserRoleExpand
+	at org.apache.ibatis.io.ClassLoaderWrapper.classForName(ClassLoaderWrapper.java:200)
+	at org.apache.ibatis.io.ClassLoaderWrapper.classForName(ClassLoaderWrapper.java:89)
+	at org.apache.ibatis.io.Resources.classForName(Resources.java:261)
+	at org.apache.ibatis.type.TypeAliasRegistry.resolveAlias(TypeAliasRegistry.java:116)
+	... 49 more
+[WARN][2019-03-19 18:45|:42][org.springframework.web.context.support.XmlWebApplicationContext]Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userServiceImpl': Injection of autowired dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Could not autowire field: private com.ssm.mapper.UserMapper com.ssm.service.Impl.UserServiceImpl.userMapper; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userMapper' defined in file [D:\ideaspace\shop\shop-api\target\classes\com\ssm\mapper\UserMapper.class]: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'UserRoleExpand'.  Cause: java.lang.ClassNotFoundException: Cannot find class: UserRoleExpand
+[INFO][2019-03-19 18:45|:42][com.alibaba.druid.pool.DruidDataSource]{dataSource-1} closed
+[ERROR][2019-03-19 18:45|:42][org.springframework.web.context.ContextLoader]Context initialization failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userServiceImpl': Injection of autowired dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Could not autowire field: private com.ssm.mapper.UserMapper com.ssm.service.Impl.UserServiceImpl.userMapper; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userMapper' defined in file [D:\ideaspace\shop\shop-api\target\classes\com\ssm\mapper\UserMapper.class]: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'UserRoleExpand'.  Cause: java.lang.ClassNotFoundException: Cannot find class: UserRoleExpand
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:334)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1218)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:543)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:778)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:839)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:538)
+	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:444)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:326)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:107)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4797)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5291)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1559)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1549)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.springframework.beans.factory.BeanCreationException: Could not autowire field: private com.ssm.mapper.UserMapper com.ssm.service.Impl.UserServiceImpl.userMapper; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userMapper' defined in file [D:\ideaspace\shop\shop-api\target\classes\com\ssm\mapper\UserMapper.class]: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'UserRoleExpand'.  Cause: java.lang.ClassNotFoundException: Cannot find class: UserRoleExpand
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:573)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:88)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:331)
+	... 22 more
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userMapper' defined in file [D:\ideaspace\shop\shop-api\target\classes\com\ssm\mapper\UserMapper.class]: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'UserRoleExpand'.  Cause: java.lang.ClassNotFoundException: Cannot find class: UserRoleExpand
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:545)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAutowireCandidates(DefaultListableBeanFactory.java:1199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1123)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1021)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:545)
+	... 24 more
+Caused by: java.lang.IllegalArgumentException: org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'UserRoleExpand'.  Cause: java.lang.ClassNotFoundException: Cannot find class: UserRoleExpand
+	at org.mybatis.spring.mapper.MapperFactoryBean.checkDaoConfig(MapperFactoryBean.java:83)
+	at org.springframework.dao.support.DaoSupport.afterPropertiesSet(DaoSupport.java:44)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1641)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1578)
+	... 34 more
+Caused by: org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'UserRoleExpand'.  Cause: java.lang.ClassNotFoundException: Cannot find class: UserRoleExpand
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:120)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.parse(XMLMapperBuilder.java:92)
+	at org.apache.ibatis.builder.annotation.MapperAnnotationBuilder.loadXmlResource(MapperAnnotationBuilder.java:173)
+	at org.apache.ibatis.builder.annotation.MapperAnnotationBuilder.parse(MapperAnnotationBuilder.java:124)
+	at org.apache.ibatis.binding.MapperRegistry.addMapper(MapperRegistry.java:72)
+	at org.apache.ibatis.session.Configuration.addMapper(Configuration.java:741)
+	at org.mybatis.spring.mapper.MapperFactoryBean.checkDaoConfig(MapperFactoryBean.java:80)
+	... 37 more
+Caused by: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'UserRoleExpand'.  Cause: java.lang.ClassNotFoundException: Cannot find class: UserRoleExpand
+	at org.apache.ibatis.builder.BaseBuilder.resolveClass(BaseBuilder.java:118)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.resultMapElement(XMLMapperBuilder.java:265)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.resultMapElement(XMLMapperBuilder.java:252)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.resultMapElements(XMLMapperBuilder.java:244)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:116)
+	... 43 more
+Caused by: org.apache.ibatis.type.TypeException: Could not resolve type alias 'UserRoleExpand'.  Cause: java.lang.ClassNotFoundException: Cannot find class: UserRoleExpand
+	at org.apache.ibatis.type.TypeAliasRegistry.resolveAlias(TypeAliasRegistry.java:120)
+	at org.apache.ibatis.builder.BaseBuilder.resolveAlias(BaseBuilder.java:149)
+	at org.apache.ibatis.builder.BaseBuilder.resolveClass(BaseBuilder.java:116)
+	... 47 more
+Caused by: java.lang.ClassNotFoundException: Cannot find class: UserRoleExpand
+	at org.apache.ibatis.io.ClassLoaderWrapper.classForName(ClassLoaderWrapper.java:200)
+	at org.apache.ibatis.io.ClassLoaderWrapper.classForName(ClassLoaderWrapper.java:89)
+	at org.apache.ibatis.io.Resources.classForName(Resources.java:261)
+	at org.apache.ibatis.type.TypeAliasRegistry.resolveAlias(TypeAliasRegistry.java:116)
+	... 49 more
+[INFO][2019-03-19 18:50|:38][org.springframework.web.context.ContextLoader]Root WebApplicationContext: initialization started
+[INFO][2019-03-19 18:50|:38][org.springframework.web.context.support.XmlWebApplicationContext]Refreshing Root WebApplicationContext: startup date [Tue Mar 19 18:50:38 CST 2019]; root of context hierarchy
+[INFO][2019-03-19 18:50|:38][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from file [D:\ideaspace\shop\shop-api\target\classes\applicationContext-dao.xml]
+[INFO][2019-03-19 18:50|:38][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from file [D:\ideaspace\shop\shop-api\target\classes\applicationContext-service.xml]
+[INFO][2019-03-19 18:50|:38][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from file [D:\ideaspace\shop\shop-api\target\classes\applicationContext-tx.xml]
+[INFO][2019-03-19 18:50|:39][org.springframework.context.support.PropertySourcesPlaceholderConfigurer]Loading properties file from class path resource [db.properties]
+[INFO][2019-03-19 18:50|:39][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO][2019-03-19 18:50|:39][com.alibaba.druid.pool.DruidDataSource]{dataSource-1} inited
+[INFO][2019-03-19 18:50|:40][org.springframework.web.context.ContextLoader]Root WebApplicationContext: initialization completed in 1408 ms
+[INFO][2019-03-19 18:50|:40][org.springframework.web.servlet.DispatcherServlet]FrameworkServlet 'DispatcherServlet': initialization started
+[INFO][2019-03-19 18:50|:40][org.springframework.web.context.support.XmlWebApplicationContext]Refreshing WebApplicationContext for namespace 'DispatcherServlet-servlet': startup date [Tue Mar 19 18:50:40 CST 2019]; parent: Root WebApplicationContext
+[INFO][2019-03-19 18:50|:40][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring-mvc.xml]
+[INFO][2019-03-19 18:50|:40][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO][2019-03-19 18:50|:40][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]Mapped "{[/test]}" onto public java.lang.Object com.ssm.controller.TestController.test()
+[INFO][2019-03-19 18:50|:40][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]Mapped "{[/api/user/login],methods=[POST]}" onto public java.lang.Object com.ssm.controller.UserController.Login(java.lang.String,java.lang.String)
+[INFO][2019-03-19 18:50|:40][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]Looking for @ControllerAdvice: WebApplicationContext for namespace 'DispatcherServlet-servlet': startup date [Tue Mar 19 18:50:40 CST 2019]; parent: Root WebApplicationContext
+[INFO][2019-03-19 18:50|:40][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]Looking for @ControllerAdvice: WebApplicationContext for namespace 'DispatcherServlet-servlet': startup date [Tue Mar 19 18:50:40 CST 2019]; parent: Root WebApplicationContext
+[INFO][2019-03-19 18:50|:40][org.springframework.web.servlet.handler.SimpleUrlHandlerMapping]Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+[INFO][2019-03-19 18:50|:40][org.springframework.web.servlet.DispatcherServlet]FrameworkServlet 'DispatcherServlet': initialization completed in 654 ms
+[WARN][2019-03-19 18:51|:08][org.springframework.web.servlet.PageNotFound]Request method 'GET' not supported
+[INFO][2019-03-19 18:59|:29][org.springframework.web.context.ContextLoader]Root WebApplicationContext: initialization started
+[INFO][2019-03-19 18:59|:29][org.springframework.web.context.support.XmlWebApplicationContext]Refreshing Root WebApplicationContext: startup date [Tue Mar 19 18:59:29 CST 2019]; root of context hierarchy
+[INFO][2019-03-19 18:59|:29][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from file [D:\ideaspace\shop\shop-api\target\classes\applicationContext-dao.xml]
+[INFO][2019-03-19 18:59|:30][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from file [D:\ideaspace\shop\shop-api\target\classes\applicationContext-service.xml]
+[INFO][2019-03-19 18:59|:30][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from file [D:\ideaspace\shop\shop-api\target\classes\applicationContext-tx.xml]
+[INFO][2019-03-19 18:59|:30][org.springframework.context.support.PropertySourcesPlaceholderConfigurer]Loading properties file from class path resource [db.properties]
+[INFO][2019-03-19 18:59|:30][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO][2019-03-19 18:59|:31][com.alibaba.druid.pool.DruidDataSource]{dataSource-1} inited
+[INFO][2019-03-19 18:59|:31][org.springframework.web.context.ContextLoader]Root WebApplicationContext: initialization completed in 1512 ms
+[INFO][2019-03-19 18:59|:31][org.springframework.web.servlet.DispatcherServlet]FrameworkServlet 'DispatcherServlet': initialization started
+[INFO][2019-03-19 18:59|:31][org.springframework.web.context.support.XmlWebApplicationContext]Refreshing WebApplicationContext for namespace 'DispatcherServlet-servlet': startup date [Tue Mar 19 18:59:31 CST 2019]; parent: Root WebApplicationContext
+[INFO][2019-03-19 18:59|:31][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring-mvc.xml]
+[INFO][2019-03-19 18:59|:31][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO][2019-03-19 18:59|:31][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]Mapped "{[/test]}" onto public java.lang.Object com.ssm.controller.TestController.test()
+[INFO][2019-03-19 18:59|:31][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]Mapped "{[/api/user/login],methods=[POST]}" onto public java.lang.Object com.ssm.controller.UserController.Login(java.lang.String,java.lang.String)
+[INFO][2019-03-19 18:59|:31][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]Looking for @ControllerAdvice: WebApplicationContext for namespace 'DispatcherServlet-servlet': startup date [Tue Mar 19 18:59:31 CST 2019]; parent: Root WebApplicationContext
+[INFO][2019-03-19 18:59|:31][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]Looking for @ControllerAdvice: WebApplicationContext for namespace 'DispatcherServlet-servlet': startup date [Tue Mar 19 18:59:31 CST 2019]; parent: Root WebApplicationContext
+[INFO][2019-03-19 18:59|:31][org.springframework.web.servlet.handler.SimpleUrlHandlerMapping]Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+[INFO][2019-03-19 18:59|:32][org.springframework.web.servlet.DispatcherServlet]FrameworkServlet 'DispatcherServlet': initialization completed in 680 ms
+[DEBUG][2019-03-19 19:00|:31][com.ssm.mapper.UserMapper.selectByLogin]==>  Preparing: select * from sy_user where user_account=? and password=? 
+[DEBUG][2019-03-19 19:00|:31][com.ssm.mapper.UserMapper.selectByLogin]==> Parameters: jack(String), 3f725290c0f04f9450d4ce1427bc8b56(String)
+[DEBUG][2019-03-19 19:00|:31][com.ssm.mapper.UserMapper.selectByLogin]<==      Total: 1
+[INFO][2019-03-19 19:02|:15][org.springframework.web.context.ContextLoader]Root WebApplicationContext: initialization started
+[INFO][2019-03-19 19:02|:15][org.springframework.web.context.support.XmlWebApplicationContext]Refreshing Root WebApplicationContext: startup date [Tue Mar 19 19:02:15 CST 2019]; root of context hierarchy
+[INFO][2019-03-19 19:02|:15][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from file [D:\ideaspace\shop\shop-api\target\classes\applicationContext-dao.xml]
+[INFO][2019-03-19 19:02|:15][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from file [D:\ideaspace\shop\shop-api\target\classes\applicationContext-service.xml]
+[INFO][2019-03-19 19:02|:15][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from file [D:\ideaspace\shop\shop-api\target\classes\applicationContext-tx.xml]
+[INFO][2019-03-19 19:02|:15][org.springframework.context.support.PropertySourcesPlaceholderConfigurer]Loading properties file from class path resource [db.properties]
+[INFO][2019-03-19 19:02|:15][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO][2019-03-19 19:02|:16][com.alibaba.druid.pool.DruidDataSource]{dataSource-1} inited
+[INFO][2019-03-19 19:02|:17][org.springframework.web.context.ContextLoader]Root WebApplicationContext: initialization completed in 2195 ms
+[INFO][2019-03-19 19:02|:17][org.springframework.web.servlet.DispatcherServlet]FrameworkServlet 'DispatcherServlet': initialization started
+[INFO][2019-03-19 19:02|:17][org.springframework.web.context.support.XmlWebApplicationContext]Refreshing WebApplicationContext for namespace 'DispatcherServlet-servlet': startup date [Tue Mar 19 19:02:17 CST 2019]; parent: Root WebApplicationContext
+[INFO][2019-03-19 19:02|:17][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring-mvc.xml]
+[INFO][2019-03-19 19:02|:17][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO][2019-03-19 19:02|:17][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]Mapped "{[/test]}" onto public java.lang.Object com.ssm.controller.TestController.test()
+[INFO][2019-03-19 19:02|:17][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]Mapped "{[/api/user/login],methods=[POST]}" onto public java.lang.Object com.ssm.controller.UserController.Login(java.lang.String,java.lang.String)
+[INFO][2019-03-19 19:02|:18][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]Looking for @ControllerAdvice: WebApplicationContext for namespace 'DispatcherServlet-servlet': startup date [Tue Mar 19 19:02:17 CST 2019]; parent: Root WebApplicationContext
+[INFO][2019-03-19 19:02|:18][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]Looking for @ControllerAdvice: WebApplicationContext for namespace 'DispatcherServlet-servlet': startup date [Tue Mar 19 19:02:17 CST 2019]; parent: Root WebApplicationContext
+[INFO][2019-03-19 19:02|:18][org.springframework.web.servlet.handler.SimpleUrlHandlerMapping]Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+[INFO][2019-03-19 19:02|:18][org.springframework.web.servlet.DispatcherServlet]FrameworkServlet 'DispatcherServlet': initialization completed in 1115 ms
+[DEBUG][2019-03-19 19:02|:45][com.ssm.mapper.UserMapper.selectByLogin]==>  Preparing: select * from sy_user where user_account=? and password=? 
+[DEBUG][2019-03-19 19:02|:45][com.ssm.mapper.UserMapper.selectByLogin]==> Parameters: jack(String), 3f725290c0f04f9450d4ce1427bc8b56(String)
+[DEBUG][2019-03-19 19:02|:45][com.ssm.mapper.UserMapper.selectByLogin]<==      Total: 1
+[INFO][2019-03-19 19:03|:47][org.springframework.web.context.ContextLoader]Root WebApplicationContext: initialization started
+[INFO][2019-03-19 19:03|:48][org.springframework.web.context.support.XmlWebApplicationContext]Refreshing Root WebApplicationContext: startup date [Tue Mar 19 19:03:48 CST 2019]; root of context hierarchy
+[INFO][2019-03-19 19:03|:48][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from file [D:\ideaspace\shop\shop-api\target\classes\applicationContext-dao.xml]
+[INFO][2019-03-19 19:03|:48][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from file [D:\ideaspace\shop\shop-api\target\classes\applicationContext-service.xml]
+[INFO][2019-03-19 19:03|:48][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from file [D:\ideaspace\shop\shop-api\target\classes\applicationContext-tx.xml]
+[INFO][2019-03-19 19:03|:48][org.springframework.context.support.PropertySourcesPlaceholderConfigurer]Loading properties file from class path resource [db.properties]
+[INFO][2019-03-19 19:03|:48][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO][2019-03-19 19:03|:49][com.alibaba.druid.pool.DruidDataSource]{dataSource-1} inited
+[INFO][2019-03-19 19:03|:49][org.springframework.web.context.ContextLoader]Root WebApplicationContext: initialization completed in 1451 ms
+[INFO][2019-03-19 19:03|:49][org.springframework.web.servlet.DispatcherServlet]FrameworkServlet 'DispatcherServlet': initialization started
+[INFO][2019-03-19 19:03|:49][org.springframework.web.context.support.XmlWebApplicationContext]Refreshing WebApplicationContext for namespace 'DispatcherServlet-servlet': startup date [Tue Mar 19 19:03:49 CST 2019]; parent: Root WebApplicationContext
+[INFO][2019-03-19 19:03|:49][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring-mvc.xml]
+[INFO][2019-03-19 19:03|:49][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO][2019-03-19 19:03|:49][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]Mapped "{[/test]}" onto public java.lang.Object com.ssm.controller.TestController.test()
+[INFO][2019-03-19 19:03|:49][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]Mapped "{[/api/user/login],methods=[POST]}" onto public java.lang.Object com.ssm.controller.UserController.Login(java.lang.String,java.lang.String)
+[INFO][2019-03-19 19:03|:50][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]Looking for @ControllerAdvice: WebApplicationContext for namespace 'DispatcherServlet-servlet': startup date [Tue Mar 19 19:03:49 CST 2019]; parent: Root WebApplicationContext
+[INFO][2019-03-19 19:03|:50][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]Looking for @ControllerAdvice: WebApplicationContext for namespace 'DispatcherServlet-servlet': startup date [Tue Mar 19 19:03:49 CST 2019]; parent: Root WebApplicationContext
+[INFO][2019-03-19 19:03|:50][org.springframework.web.servlet.handler.SimpleUrlHandlerMapping]Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+[INFO][2019-03-19 19:03|:50][org.springframework.web.servlet.DispatcherServlet]FrameworkServlet 'DispatcherServlet': initialization completed in 713 ms
+[DEBUG][2019-03-19 19:03|:57][com.ssm.mapper.UserMapper.selectByLogin]==>  Preparing: select * from sy_user where user_account=? and password=? 
+[DEBUG][2019-03-19 19:03|:57][com.ssm.mapper.UserMapper.selectByLogin]==> Parameters: jack(String), 3f725290c0f04f9450d4ce1427bc8b56(String)
+[DEBUG][2019-03-19 19:03|:57][com.ssm.mapper.UserMapper.selectByLogin]<==      Total: 1
+[INFO][2019-03-19 19:26|:09][org.springframework.web.context.ContextLoader]Root WebApplicationContext: initialization started
+[INFO][2019-03-19 19:26|:09][org.springframework.web.context.support.XmlWebApplicationContext]Refreshing Root WebApplicationContext: startup date [Tue Mar 19 19:26:09 CST 2019]; root of context hierarchy
+[INFO][2019-03-19 19:26|:09][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from file [D:\ideaspace\shop\shop-api\target\classes\applicationContext-dao.xml]
+[INFO][2019-03-19 19:26|:10][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from file [D:\ideaspace\shop\shop-api\target\classes\applicationContext-service.xml]
+[INFO][2019-03-19 19:26|:10][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from file [D:\ideaspace\shop\shop-api\target\classes\applicationContext-tx.xml]
+[INFO][2019-03-19 19:26|:10][org.springframework.context.support.PropertySourcesPlaceholderConfigurer]Loading properties file from class path resource [db.properties]
+[INFO][2019-03-19 19:26|:10][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO][2019-03-19 19:26|:11][com.alibaba.druid.pool.DruidDataSource]{dataSource-1} inited
+[INFO][2019-03-19 19:26|:11][org.springframework.web.context.ContextLoader]Root WebApplicationContext: initialization completed in 1823 ms
+[INFO][2019-03-19 19:26|:11][org.springframework.web.servlet.DispatcherServlet]FrameworkServlet 'DispatcherServlet': initialization started
+[INFO][2019-03-19 19:26|:11][org.springframework.web.context.support.XmlWebApplicationContext]Refreshing WebApplicationContext for namespace 'DispatcherServlet-servlet': startup date [Tue Mar 19 19:26:11 CST 2019]; parent: Root WebApplicationContext
+[INFO][2019-03-19 19:26|:11][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring-mvc.xml]
+[INFO][2019-03-19 19:26|:11][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO][2019-03-19 19:26|:11][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]Mapped "{[/test]}" onto public java.lang.Object com.ssm.controller.TestController.test()
+[INFO][2019-03-19 19:26|:11][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]Mapped "{[/api/user/login],methods=[POST]}" onto public java.lang.Object com.ssm.controller.UserController.Login(java.lang.String,java.lang.String)
+[INFO][2019-03-19 19:26|:12][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]Looking for @ControllerAdvice: WebApplicationContext for namespace 'DispatcherServlet-servlet': startup date [Tue Mar 19 19:26:11 CST 2019]; parent: Root WebApplicationContext
+[INFO][2019-03-19 19:26|:12][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]Looking for @ControllerAdvice: WebApplicationContext for namespace 'DispatcherServlet-servlet': startup date [Tue Mar 19 19:26:11 CST 2019]; parent: Root WebApplicationContext
+[INFO][2019-03-19 19:26|:12][org.springframework.web.servlet.handler.SimpleUrlHandlerMapping]Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+[INFO][2019-03-19 19:26|:12][org.springframework.web.servlet.DispatcherServlet]FrameworkServlet 'DispatcherServlet': initialization completed in 751 ms
+[DEBUG][2019-03-19 19:39|:49][com.ssm.mapper.UserMapper.selectByLogin]==>  Preparing: select * from sy_user where user_account=? and password=? 
+[DEBUG][2019-03-19 19:39|:49][com.ssm.mapper.UserMapper.selectByLogin]==> Parameters: jack(String), 3f725290c0f04f9450d4ce1427bc8b56(String)
+[DEBUG][2019-03-19 19:39|:49][com.ssm.mapper.UserMapper.selectByLogin]<==      Total: 1
+[DEBUG][2019-03-19 19:42|:34][com.ssm.mapper.UserMapper.selectByLogin]==>  Preparing: select * from sy_user where user_account=? and password=? 
+[DEBUG][2019-03-19 19:42|:34][com.ssm.mapper.UserMapper.selectByLogin]==> Parameters: jack(String), 3f725290c0f04f9450d4ce1427bc8b56(String)
+[DEBUG][2019-03-19 19:42|:34][com.ssm.mapper.UserMapper.selectByLogin]<==      Total: 1
+[INFO][2019-03-19 20:08|:54][org.springframework.web.context.ContextLoader]Root WebApplicationContext: initialization started
+[INFO][2019-03-19 20:08|:54][org.springframework.web.context.support.XmlWebApplicationContext]Refreshing Root WebApplicationContext: startup date [Tue Mar 19 20:08:54 CST 2019]; root of context hierarchy
+[INFO][2019-03-19 20:08|:54][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from file [D:\ideaspace\shop\shop-api\target\classes\applicationContext-dao.xml]
+[INFO][2019-03-19 20:08|:54][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from file [D:\ideaspace\shop\shop-api\target\classes\applicationContext-service.xml]
+[INFO][2019-03-19 20:08|:54][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from file [D:\ideaspace\shop\shop-api\target\classes\applicationContext-tx.xml]
+[INFO][2019-03-19 20:08|:55][org.springframework.context.support.PropertySourcesPlaceholderConfigurer]Loading properties file from class path resource [db.properties]
+[INFO][2019-03-19 20:08|:55][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO][2019-03-19 20:08|:55][com.alibaba.druid.pool.DruidDataSource]{dataSource-1} inited
+[INFO][2019-03-19 20:08|:55][org.springframework.web.context.ContextLoader]Root WebApplicationContext: initialization completed in 1636 ms
+[INFO][2019-03-19 20:08|:55][org.springframework.web.servlet.DispatcherServlet]FrameworkServlet 'DispatcherServlet': initialization started
+[INFO][2019-03-19 20:08|:55][org.springframework.web.context.support.XmlWebApplicationContext]Refreshing WebApplicationContext for namespace 'DispatcherServlet-servlet': startup date [Tue Mar 19 20:08:55 CST 2019]; parent: Root WebApplicationContext
+[INFO][2019-03-19 20:08|:55][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring-mvc.xml]
+[INFO][2019-03-19 20:08|:56][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO][2019-03-19 20:08|:56][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]Mapped "{[/test]}" onto public java.lang.Object com.ssm.controller.TestController.test()
+[INFO][2019-03-19 20:08|:56][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]Mapped "{[/api/user/login],methods=[POST]}" onto public java.lang.Object com.ssm.controller.UserController.Login(java.lang.String,java.lang.String)
+[INFO][2019-03-19 20:08|:56][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]Mapped "{[/api/product],methods=[GET]}" onto public java.lang.Object com.ssm.controller.UserController.queruProductPages(java.lang.Integer,java.lang.Integer)
+[INFO][2019-03-19 20:08|:56][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]Looking for @ControllerAdvice: WebApplicationContext for namespace 'DispatcherServlet-servlet': startup date [Tue Mar 19 20:08:55 CST 2019]; parent: Root WebApplicationContext
+[INFO][2019-03-19 20:08|:56][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]Looking for @ControllerAdvice: WebApplicationContext for namespace 'DispatcherServlet-servlet': startup date [Tue Mar 19 20:08:55 CST 2019]; parent: Root WebApplicationContext
+[INFO][2019-03-19 20:08|:56][org.springframework.web.servlet.handler.SimpleUrlHandlerMapping]Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+[INFO][2019-03-19 20:08|:56][org.springframework.web.servlet.DispatcherServlet]FrameworkServlet 'DispatcherServlet': initialization completed in 660 ms
+[DEBUG][2019-03-19 20:09|:49][com.ssm.mapper.ProductMapper.selectProductPages]==>  Preparing: select p.*,b.brand_name from sy_product_info as p left join sy_brand_info as b on b.brand_id=p.brand_id LEFT JOIN sy_product_category as c on p.second_category_id = c.category_id limit ?,? 
+[DEBUG][2019-03-19 20:09|:49][com.ssm.mapper.ProductMapper.selectProductPages]==> Parameters: 0(Integer), 6(Integer)
+[DEBUG][2019-03-19 20:09|:49][com.ssm.mapper.ProductMapper.selectProductPages]<==      Total: 4
+[DEBUG][2019-03-19 20:09|:49][com.ssm.mapper.ProductMapper.selectProductcounts]==>  Preparing: select count(*) from sy_product_info as p left join sy_brand_info as b on b.brand_id=p.brand_id LEFT JOIN sy_product_category as c on p.second_category_id = c.category_id 
+[DEBUG][2019-03-19 20:09|:49][com.ssm.mapper.ProductMapper.selectProductcounts]==> Parameters: 
+[DEBUG][2019-03-19 20:09|:49][com.ssm.mapper.ProductMapper.selectProductcounts]<==      Total: 1
+[INFO][2019-03-19 20:21|:10][org.springframework.web.context.ContextLoader]Root WebApplicationContext: initialization started
+[INFO][2019-03-19 20:21|:10][org.springframework.web.context.support.XmlWebApplicationContext]Refreshing Root WebApplicationContext: startup date [Tue Mar 19 20:21:10 CST 2019]; root of context hierarchy
+[INFO][2019-03-19 20:21|:10][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from file [D:\ideaspace\shop\shop-api\target\classes\applicationContext-dao.xml]
+[INFO][2019-03-19 20:21|:11][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from file [D:\ideaspace\shop\shop-api\target\classes\applicationContext-service.xml]
+[INFO][2019-03-19 20:21|:11][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from file [D:\ideaspace\shop\shop-api\target\classes\applicationContext-tx.xml]
+[INFO][2019-03-19 20:21|:11][org.springframework.context.support.PropertySourcesPlaceholderConfigurer]Loading properties file from class path resource [db.properties]
+[INFO][2019-03-19 20:21|:11][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO][2019-03-19 20:21|:11][com.alibaba.druid.pool.DruidDataSource]{dataSource-1} inited
+[INFO][2019-03-19 20:21|:12][org.springframework.web.context.ContextLoader]Root WebApplicationContext: initialization completed in 1316 ms
+[INFO][2019-03-19 20:21|:12][org.springframework.web.servlet.DispatcherServlet]FrameworkServlet 'DispatcherServlet': initialization started
+[INFO][2019-03-19 20:21|:12][org.springframework.web.context.support.XmlWebApplicationContext]Refreshing WebApplicationContext for namespace 'DispatcherServlet-servlet': startup date [Tue Mar 19 20:21:12 CST 2019]; parent: Root WebApplicationContext
+[INFO][2019-03-19 20:21|:12][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring-mvc.xml]
+[INFO][2019-03-19 20:21|:12][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO][2019-03-19 20:21|:12][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]Mapped "{[/test]}" onto public java.lang.Object com.ssm.controller.TestController.test()
+[INFO][2019-03-19 20:21|:12][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]Mapped "{[/api/user/login],methods=[POST]}" onto public java.lang.Object com.ssm.controller.UserController.Login(java.lang.String,java.lang.String)
+[INFO][2019-03-19 20:21|:12][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]Mapped "{[/api/product],methods=[GET]}" onto public java.lang.Object com.ssm.controller.UserController.queruProductPages(java.lang.Integer,java.lang.Integer)
+[INFO][2019-03-19 20:21|:12][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]Looking for @ControllerAdvice: WebApplicationContext for namespace 'DispatcherServlet-servlet': startup date [Tue Mar 19 20:21:12 CST 2019]; parent: Root WebApplicationContext
+[INFO][2019-03-19 20:21|:12][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]Looking for @ControllerAdvice: WebApplicationContext for namespace 'DispatcherServlet-servlet': startup date [Tue Mar 19 20:21:12 CST 2019]; parent: Root WebApplicationContext
+[INFO][2019-03-19 20:21|:13][org.springframework.web.servlet.handler.SimpleUrlHandlerMapping]Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+[INFO][2019-03-19 20:21|:13][org.springframework.web.servlet.DispatcherServlet]FrameworkServlet 'DispatcherServlet': initialization completed in 953 ms
+[DEBUG][2019-03-19 20:21|:20][com.ssm.mapper.ProductMapper.selectProductPages]==>  Preparing: select p.*,b.brand_name from sy_product_info as p left join sy_brand_info as b on b.brand_id=p.brand_id LEFT JOIN sy_product_category as c on p.second_category_id = c.category_id limit ?,? 
+[DEBUG][2019-03-19 20:21|:20][com.ssm.mapper.ProductMapper.selectProductPages]==> Parameters: 0(Integer), 6(Integer)
+[DEBUG][2019-03-19 20:21|:20][com.ssm.mapper.ProductMapper.selectProductPages]<==      Total: 4
+[DEBUG][2019-03-19 20:21|:20][com.ssm.mapper.ProductPictureMapper.selectpurl]==>  Preparing: select * from sy_product_pic_info where product_id=? 
+[DEBUG][2019-03-19 20:21|:20][com.ssm.mapper.ProductPictureMapper.selectpurl]==> Parameters: 1(Long)
+[DEBUG][2019-03-19 20:21|:20][com.ssm.mapper.ProductPictureMapper.selectpurl]<==      Total: 1
+[DEBUG][2019-03-19 20:21|:20][com.ssm.mapper.ProductPictureMapper.selectpurl]==>  Preparing: select * from sy_product_pic_info where product_id=? 
+[DEBUG][2019-03-19 20:21|:20][com.ssm.mapper.ProductPictureMapper.selectpurl]==> Parameters: 2(Long)
+[DEBUG][2019-03-19 20:21|:20][com.ssm.mapper.ProductPictureMapper.selectpurl]<==      Total: 1
+[DEBUG][2019-03-19 20:21|:20][com.ssm.mapper.ProductPictureMapper.selectpurl]==>  Preparing: select * from sy_product_pic_info where product_id=? 
+[DEBUG][2019-03-19 20:21|:20][com.ssm.mapper.ProductPictureMapper.selectpurl]==> Parameters: 3(Long)
+[DEBUG][2019-03-19 20:21|:20][com.ssm.mapper.ProductPictureMapper.selectpurl]<==      Total: 1
+[DEBUG][2019-03-19 20:21|:20][com.ssm.mapper.ProductPictureMapper.selectpurl]==>  Preparing: select * from sy_product_pic_info where product_id=? 
+[DEBUG][2019-03-19 20:21|:20][com.ssm.mapper.ProductPictureMapper.selectpurl]==> Parameters: 4(Long)
+[DEBUG][2019-03-19 20:21|:20][com.ssm.mapper.ProductPictureMapper.selectpurl]<==      Total: 1
+[DEBUG][2019-03-19 20:21|:20][com.ssm.mapper.ProductMapper.selectProductcounts]==>  Preparing: select count(*) from sy_product_info as p left join sy_brand_info as b on b.brand_id=p.brand_id LEFT JOIN sy_product_category as c on p.second_category_id = c.category_id 
+[DEBUG][2019-03-19 20:21|:20][com.ssm.mapper.ProductMapper.selectProductcounts]==> Parameters: 
+[DEBUG][2019-03-19 20:21|:20][com.ssm.mapper.ProductMapper.selectProductcounts]<==      Total: 1
+[INFO][2019-03-19 20:30|:33][org.springframework.web.context.ContextLoader]Root WebApplicationContext: initialization started
+[INFO][2019-03-19 20:30|:33][org.springframework.web.context.support.XmlWebApplicationContext]Refreshing Root WebApplicationContext: startup date [Tue Mar 19 20:30:33 CST 2019]; root of context hierarchy
+[INFO][2019-03-19 20:30|:33][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from file [D:\ideaspace\shop\shop-api\target\classes\applicationContext-dao.xml]
+[INFO][2019-03-19 20:30|:34][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from file [D:\ideaspace\shop\shop-api\target\classes\applicationContext-service.xml]
+[INFO][2019-03-19 20:30|:34][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from file [D:\ideaspace\shop\shop-api\target\classes\applicationContext-tx.xml]
+[INFO][2019-03-19 20:30|:34][org.springframework.context.support.PropertySourcesPlaceholderConfigurer]Loading properties file from class path resource [db.properties]
+[INFO][2019-03-19 20:30|:34][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO][2019-03-19 20:30|:34][com.alibaba.druid.pool.DruidDataSource]{dataSource-1} inited
+[INFO][2019-03-19 20:30|:35][org.springframework.web.context.ContextLoader]Root WebApplicationContext: initialization completed in 1282 ms
+[INFO][2019-03-19 20:30|:35][org.springframework.web.servlet.DispatcherServlet]FrameworkServlet 'DispatcherServlet': initialization started
+[INFO][2019-03-19 20:30|:35][org.springframework.web.context.support.XmlWebApplicationContext]Refreshing WebApplicationContext for namespace 'DispatcherServlet-servlet': startup date [Tue Mar 19 20:30:35 CST 2019]; parent: Root WebApplicationContext
+[INFO][2019-03-19 20:30|:35][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring-mvc.xml]
+[INFO][2019-03-19 20:30|:35][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO][2019-03-19 20:30|:35][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]Mapped "{[/test]}" onto public java.lang.Object com.ssm.controller.TestController.test()
+[INFO][2019-03-19 20:30|:35][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]Mapped "{[/api/product],methods=[GET]}" onto public java.lang.Object com.ssm.controller.UserController.queruProductPages(java.lang.Integer,java.lang.Integer)
+[INFO][2019-03-19 20:30|:35][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]Mapped "{[/api/user/login],methods=[POST]}" onto public java.lang.Object com.ssm.controller.UserController.Login(java.lang.String,java.lang.String)
+[INFO][2019-03-19 20:30|:35][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]Looking for @ControllerAdvice: WebApplicationContext for namespace 'DispatcherServlet-servlet': startup date [Tue Mar 19 20:30:35 CST 2019]; parent: Root WebApplicationContext
+[INFO][2019-03-19 20:30|:36][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]Looking for @ControllerAdvice: WebApplicationContext for namespace 'DispatcherServlet-servlet': startup date [Tue Mar 19 20:30:35 CST 2019]; parent: Root WebApplicationContext
+[INFO][2019-03-19 20:30|:36][org.springframework.web.servlet.handler.SimpleUrlHandlerMapping]Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+[INFO][2019-03-19 20:30|:36][org.springframework.web.servlet.DispatcherServlet]FrameworkServlet 'DispatcherServlet': initialization completed in 913 ms
+[DEBUG][2019-03-19 20:33|:09][com.ssm.mapper.ProductMapper.selectProductPages]==>  Preparing: select p.*,b.brand_name from sy_product_info as p left join sy_brand_info as b on b.brand_id=p.brand_id LEFT JOIN sy_product_category as c on p.second_category_id = c.category_id limit ?,? 
+[DEBUG][2019-03-19 20:33|:09][com.ssm.mapper.ProductMapper.selectProductPages]==> Parameters: 0(Integer), 6(Integer)
+[DEBUG][2019-03-19 20:33|:09][com.ssm.mapper.ProductMapper.selectProductPages]<==      Total: 4
+[DEBUG][2019-03-19 20:33|:09][com.ssm.mapper.ProductPictureMapper.selectpurl]==>  Preparing: select * from sy_product_pic_info where product_id=? 
+[DEBUG][2019-03-19 20:33|:09][com.ssm.mapper.ProductPictureMapper.selectpurl]==> Parameters: 1(Long)
+[DEBUG][2019-03-19 20:33|:09][com.ssm.mapper.ProductPictureMapper.selectpurl]<==      Total: 1
+[DEBUG][2019-03-19 20:33|:09][com.ssm.mapper.ProductPictureMapper.selectpurl]==>  Preparing: select * from sy_product_pic_info where product_id=? 
+[DEBUG][2019-03-19 20:33|:09][com.ssm.mapper.ProductPictureMapper.selectpurl]==> Parameters: 2(Long)
+[DEBUG][2019-03-19 20:33|:09][com.ssm.mapper.ProductPictureMapper.selectpurl]<==      Total: 1
+[DEBUG][2019-03-19 20:33|:09][com.ssm.mapper.ProductPictureMapper.selectpurl]==>  Preparing: select * from sy_product_pic_info where product_id=? 
+[DEBUG][2019-03-19 20:33|:09][com.ssm.mapper.ProductPictureMapper.selectpurl]==> Parameters: 3(Long)
+[DEBUG][2019-03-19 20:33|:09][com.ssm.mapper.ProductPictureMapper.selectpurl]<==      Total: 1
+[DEBUG][2019-03-19 20:33|:09][com.ssm.mapper.ProductPictureMapper.selectpurl]==>  Preparing: select * from sy_product_pic_info where product_id=? 
+[DEBUG][2019-03-19 20:33|:09][com.ssm.mapper.ProductPictureMapper.selectpurl]==> Parameters: 4(Long)
+[DEBUG][2019-03-19 20:33|:09][com.ssm.mapper.ProductPictureMapper.selectpurl]<==      Total: 1
+[DEBUG][2019-03-19 20:33|:09][com.ssm.mapper.ProductMapper.selectProductcounts]==>  Preparing: select count(*) from sy_product_info as p left join sy_brand_info as b on b.brand_id=p.brand_id LEFT JOIN sy_product_category as c on p.second_category_id = c.category_id 
+[DEBUG][2019-03-19 20:33|:09][com.ssm.mapper.ProductMapper.selectProductcounts]==> Parameters: 
+[DEBUG][2019-03-19 20:33|:09][com.ssm.mapper.ProductMapper.selectProductcounts]<==      Total: 1
+[INFO][2019-03-19 20:50|:20][org.springframework.web.context.ContextLoader]Root WebApplicationContext: initialization started
+[INFO][2019-03-19 20:50|:20][org.springframework.web.context.support.XmlWebApplicationContext]Refreshing Root WebApplicationContext: startup date [Tue Mar 19 20:50:20 CST 2019]; root of context hierarchy
+[INFO][2019-03-19 20:50|:20][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from file [D:\ideaspace\shop\shop-api\target\classes\applicationContext-dao.xml]
+[INFO][2019-03-19 20:50|:20][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from file [D:\ideaspace\shop\shop-api\target\classes\applicationContext-service.xml]
+[INFO][2019-03-19 20:50|:20][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from file [D:\ideaspace\shop\shop-api\target\classes\applicationContext-tx.xml]
+[INFO][2019-03-19 20:50|:20][org.springframework.context.support.PropertySourcesPlaceholderConfigurer]Loading properties file from class path resource [db.properties]
+[INFO][2019-03-19 20:50|:20][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO][2019-03-19 20:50|:21][com.alibaba.druid.pool.DruidDataSource]{dataSource-1} inited
+[INFO][2019-03-19 20:50|:21][org.springframework.web.context.ContextLoader]Root WebApplicationContext: initialization completed in 1603 ms
+[INFO][2019-03-19 20:50|:21][org.springframework.web.servlet.DispatcherServlet]FrameworkServlet 'DispatcherServlet': initialization started
+[INFO][2019-03-19 20:50|:21][org.springframework.web.context.support.XmlWebApplicationContext]Refreshing WebApplicationContext for namespace 'DispatcherServlet-servlet': startup date [Tue Mar 19 20:50:21 CST 2019]; parent: Root WebApplicationContext
+[INFO][2019-03-19 20:50|:21][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring-mvc.xml]
+[INFO][2019-03-19 20:50|:22][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO][2019-03-19 20:50|:22][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]Mapped "{[/test]}" onto public java.lang.Object com.ssm.controller.TestController.test()
+[INFO][2019-03-19 20:50|:22][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]Mapped "{[/api/user/login],methods=[POST]}" onto public java.lang.Object com.ssm.controller.UserController.Login(java.lang.String,java.lang.String)
+[INFO][2019-03-19 20:50|:22][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]Mapped "{[/api/product],methods=[GET]}" onto public java.lang.Object com.ssm.controller.UserController.queruProductPages(java.lang.Integer,java.lang.Integer)
+[INFO][2019-03-19 20:50|:22][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]Looking for @ControllerAdvice: WebApplicationContext for namespace 'DispatcherServlet-servlet': startup date [Tue Mar 19 20:50:21 CST 2019]; parent: Root WebApplicationContext
+[INFO][2019-03-19 20:50|:22][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]Looking for @ControllerAdvice: WebApplicationContext for namespace 'DispatcherServlet-servlet': startup date [Tue Mar 19 20:50:21 CST 2019]; parent: Root WebApplicationContext
+[INFO][2019-03-19 20:50|:22][org.springframework.web.servlet.handler.SimpleUrlHandlerMapping]Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+[INFO][2019-03-19 20:50|:22][org.springframework.web.servlet.DispatcherServlet]FrameworkServlet 'DispatcherServlet': initialization completed in 734 ms
+[DEBUG][2019-03-19 20:50|:52][com.ssm.mapper.UserMapper.selectByLogin]==>  Preparing: select * from sy_user where user_account=? and password=? 
+[DEBUG][2019-03-19 20:50|:52][com.ssm.mapper.UserMapper.selectByLogin]==> Parameters: jack(String), 3f725290c0f04f9450d4ce1427bc8b56(String)
+[DEBUG][2019-03-19 20:50|:52][com.ssm.mapper.UserMapper.selectByLogin]<==      Total: 1
